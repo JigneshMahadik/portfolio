@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #171822;
+  color: #fff;
+  padding: 17px 20px;
+  position: fixed; /* Make the navbar fixed */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar is above other content */
+  transition: background-color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Navbar after scrolling */
+.navbar.scrolled {
+  background-color: #1c1e29;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+  font-family: cursive;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  font-family: cursive;
+}
+
+/* .menu li {
+  margin-left: 20px;
+} */
+
+.menu li:hover{
+  cursor: pointer;
+}
+
+.menu li{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+.menu li {
+  margin-left: 20px;
+  position: relative; /* Required for positioning the underline */
+}
+
+/* Underline Effect on Hover */
+.menu li::after {
+  content: ''; /* Creates an empty content for the pseudo-element */
+  position: absolute; /* Position it relative to the parent */
+  left: 0; /* Start from the left */
+  bottom: -3px; /* Adjust the distance between text and underline (negative value) */
+  width: 0; /* Initial width of the underline */
+  height: 2px; /* Height of the underline */
+  background-color: #ff6347; /* Color of the underline */
+  transition: width 0.3s ease; /* Smooth transition for the underline */
+}
+
+/* On Hover: Expand the Underline */
+.menu li:hover::after {
+  width: 100%; /* Full width on hover */
+}
+
+.menu li a:hover {
+  /* color: #ddd; */
+}
+
+/* Hamburger Menu Icon (Hidden by Default) */
+.hamburger {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 900px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #171822;
+    position: absolute;
+    top: 50px; /* Adjust based on your header height */
+    left: 0;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
