@@ -1,54 +1,144 @@
 import dwelio from "../Images/dwelio.jpg"
-import fs from "../Images/fullstack.jpg"
-import cloud from "../Images/cloud.jpg"
-
+import ecom from "../Images/ecom.jpg"
+import cart from "../Images/cart.jpg"
+import tu from "../Images/tu.jpg"
+import tt from "../Images/TT.jpg"
+import notes from "../Images/notes.jpg"
+import pg from "../Images/pg.jpg"
+import geek from "../Images/geekfood.jpg"
+import portfolio from "../Images/portfolio.jpg"
+import "../Css/Projects.css"
 
 export function Projects(){
     return(
         <div>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">Projects</h1>
-            <div class="certificate-container">
-                <div class="certificate-box">
-                    <div class="certificate-image">
-                    <img src={dwelio} alt="Certificate 1" id="pro-img"/>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">Projects & Work</h1>
+            <div id="project-container">
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={dwelio} alt="Product Image" id="pro-img"/>
                     </div>
-                    <div class="certificate-details">
-                    <h3>Full Stack Web Development Course</h3><br></br>
-                        <p>Key Learning : html, css, Javasctipt, React.js, Node.js, Express.js, MongoDB, Redux, Tailwind, Git</p>
-                    {/* <button class="view-certificate" onClick={()=>openPopup('certificate1.jpg')}>View Certificate</button> */}
-                    </div>
-                </div>
-
-                {/* <!-- Certificate Box 2 --> */}
-                <div class="certificate-box">
-                    <div class="certificate-image">
-                    <img src={fs} alt="Certificate 2"/>
-                    </div>
-                    <div class="certificate-details">
-                        <h3>Introduction to Node.js : Learn to Build APIs</h3><br></br>
-                        <p>Key Learning : RESTful Principles, HTTP methods, Status code, Midddleware, Authentication, Authorization, Error Handling, Routing</p>
-                        {/* <button class="view-certificate" onClick={()=>openPopup('certificate2.jpg')}>View Certificate</button> */}
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
                     </div>
                 </div>
-
-                {/* <!-- Certificate Box 3 --> */}
-                <div class="certificate-box">
-                    <div class="certificate-image">
-                    <img src={fs} alt="Certificate 3"/>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={portfolio} alt="Product Image" id="pro-img"/>
                     </div>
-                    <div class="certificate-details">
-                    <h3>Cloud Essentials</h3><br></br>
-                        <p>Key Learning : Saas, Paas, Iaas, Architecture, Container, Microservices, Serverless, Public, Private, Hybrid Multi Cloud</p>
-                    {/* <button class="view-certificate" onClick={()=>openPopup('certificate3.jpg')}>View Certificate</button> */}
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
                     </div>
                 </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={ecom} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
                 </div>
-
-                {/* <!-- Popup for displaying the certificate image --> */}
-                <div id="certificate-popup" class="popup-overlay" onClick="closePopup()">
-                <div class="popup-content" onClick="event.stopPropagation()">
-                    <button class="close-btn" onClick="closePopup()">X</button>
-                    <img id="popup-image" src="" alt="Certificate Image"/>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={cart} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={tu} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={tt} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={notes} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={pg} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                    <div id="pro-img-card">
+                        <img class="h-48 w-full object-center" src={geek} alt="Product Image" id="pro-img"/>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
+                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <div class="flex items-center">
+                        <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
+                        <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
+                        <p class="ml-auto text-base font-medium text-green-500">20% off</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
