@@ -14,3 +14,10 @@
   object-fit: contain;
   height: 100%;
 }
+#demo:hover{
+  cursor: pointer;
+  color: rgb(78, 78, 210);
+}
+#gh:hover{
+  cursor: pointer;
+}
