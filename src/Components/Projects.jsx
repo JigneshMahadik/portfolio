@@ -16,44 +16,44 @@ export function Projects(){
             <div id="project-container">
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
                     <div id="pro-img-card">
-                        <img class="h-48 w-full object-center" src={dwelio} alt="Product Image" id="pro-img"/>
+                        <a href="https://real-estate-fullstack-frontend-app.vercel.app/"><img class="h-48 w-full object-center" src={dwelio} alt="Product Image" id="pro-img"/></a>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
-                        <div class="flex items-center">
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Fully-fledged real-estate web app</h2>
+                        {/* <p class="text-base dark:text-gray-300 text-gray-700">Product description goes here.</p> */}
+                        {/* <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
                     <div id="pro-img-card">
-                        <img class="h-48 w-full object-center" src={portfolio} alt="Product Image" id="pro-img"/>
+                        <a href="https://portfolio-io-1.vercel.app/"><img class="h-48 w-full object-center" src={portfolio} alt="Product Image" id="pro-img"/></a>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Portfolio</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
                     <div id="pro-img-card">
-                        <img class="h-48 w-full object-center" src={ecom} alt="Product Image" id="pro-img"/>
+                        <a href="https://fullstack-ecomm-frontend-app.vercel.app/"><img class="h-48 w-full object-center" src={ecom} alt="Product Image" id="pro-img"/></a>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Fully-fledged e-commerce web app</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -61,13 +61,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={cart} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Cart</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -75,13 +75,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={tu} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Textutils - Text Editor</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -89,13 +89,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={tt} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Text translator</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -103,13 +103,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={notes} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Sticky Notes</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -117,13 +117,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={pg} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Secure Password Generator</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="pro-card" class="mx-auto mt-11 transform overflow-hidden bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
@@ -131,13 +131,13 @@ export function Projects(){
                         <img class="h-48 w-full object-center" src={geek} alt="Product Image" id="pro-img"/>
                     </div>
                     <div class="p-4">
-                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Product Name</h2>
-                        <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
+                        <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900">Geekfoods restaurant web app</h2>
+                        {/* <p class="mb-2 text-base dark:text-gray-300 text-gray-700">Product description goes here.</p>
                         <div class="flex items-center">
                         <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">$20.00</p>
                         <p class="text-base  font-medium text-gray-500 line-through dark:text-gray-300">$25.00</p>
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

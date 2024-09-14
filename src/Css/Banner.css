@@ -44,15 +44,20 @@
   }
   
   .profile-details h2 {
-    font-size: 24px;
+    font-size: 44px;
     margin-bottom: 5px;
     color: #fff; /* Changed text color to white for better contrast */
+    font-family: cursive;
   }
   
   .profile-details h3 {
-    font-size: 18px;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #bbb; /* Slightly lighter shade for contrast */
+    /* /* color: #bbb; */
+    color: rgb(247, 120, 98);
+    font-family: cursive;
+    border-bottom: 2px dotted rgb(247, 120, 98);
+    width: fit-content;
   }
   
   .profile-details p {
