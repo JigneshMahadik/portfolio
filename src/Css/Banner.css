@@ -56,7 +56,7 @@
     /* /* color: #bbb; */
     color: rgb(247, 120, 98);
     font-family: cursive;
-    border-bottom: 2px dotted rgb(247, 120, 98);
+    /* border-bottom: 2px dotted rgb(247, 120, 98); */
     width: fit-content;
   }
   

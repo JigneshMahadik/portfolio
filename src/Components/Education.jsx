@@ -18,7 +18,7 @@ export function Education(){
                             <img src={mit} id="company"/>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                                <h2 class="font-medium title-font text-white mb-1 text-xl">MCA - 82.70%</h2>
+                                <h2 class="font-medium title-font text-white mb-1 text-xl">Master of Computer Applications - 82.70%</h2>
                                 <h2 class="font-medium title-font text-white mb-1 text-xl">MIT World Peace University</h2>
                                 <p class="leading-relaxed">Pune, Maharashtra</p>
                                 <p class="leading-relaxed">2018-2024</p>
@@ -35,7 +35,7 @@ export function Education(){
                             <img src={viv} id="company"/>
                             </div>
                             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                                <h2 class="font-medium title-font text-white mb-1 text-xl">BCA - 74.10%</h2>
+                                <h2 class="font-medium title-font text-white mb-1 text-xl">Bachelor of Computer Applications - 74.10%</h2>
                                 <h2 class="font-medium title-font text-white mb-1 text-xl">Vivekanand College</h2>
                                 <p class="leading-relaxed">Surat, Gujarat</p>
                                 <p class="leading-relaxed">2015-2018</p>

@@ -30,8 +30,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <a href=""><img src={github} className="w-7"/></a>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/realEstate-fullstack-frontend-app/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://real-estate-fullstack-frontend-app.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -50,8 +50,8 @@ export function Projects(){
                         -base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/portfolio/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://portfolio-io-1.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -69,8 +69,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/fullstack_ecomm_frontend_app/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://fullstack-ecomm-frontend-app.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -88,8 +88,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/react_product_cart/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://react-product-cart-gamma.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -108,8 +108,8 @@ export function Projects(){
                         base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/TextUtis/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://text-utis-editor.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -127,8 +127,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/React-Text-Translator/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://react-text-translator-opal.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -146,8 +146,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/Sticky-Notes"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://jigneshmahadik.github.io/Sticky-Notes/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -165,8 +165,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/React-Secure-Password-Generator/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://react-secure-password-generator.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>
@@ -184,8 +184,8 @@ export function Projects(){
                         <p class="ml-auto text-base font-medium text-green-500">20% off</p>
                         </div> */}
                         <div className="flex justify-between gap-3 align-middle">
-                            <img src={github} className="w-7"/>
-                            <p className="font-bold text-white" id="demo">Demo</p>
+                            <a href="https://github.com/JigneshMahadik/GeekFoods/tree/main"><img src={github} className="w-7"/></a>
+                            <p className="font-bold text-white" id="demo"><a href="https://geek-foods-dusky.vercel.app/">Demo</a></p>
                             {/* <img src={demo} className="w-4 h-4"/> */}
                         </div>
                     </div>

@@ -15,7 +15,7 @@ export function Banner(){
                 {/* <!-- Right Side: Profile Details --> */}
                 <div class="profile-details">
                 <h2>Hi, I'm Jigneshkumar Mahadik</h2>
-                <h3>Fullstack Developer</h3>
+                <h3>&lt; Fullstack Developer &gt;</h3>
                 <p>
                     Seeking an opportunity in the field of software engineering with strong knowledge of various technologies like, Javascript, React.js, Node.js, Express.js, HTML ,CSS, MongoDB, Tailwind CSS, Redux, Git.
                     Ability to implement a full software development life cycle (SDLC) and analyze the performance of programs to
