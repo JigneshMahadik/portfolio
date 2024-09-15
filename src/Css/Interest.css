@@ -1,0 +1,76 @@
+/* Flex Container */
+.activity-flex {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap to the next line */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Space between items */
+    padding: 0 30px;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    background-color: #171822;
+}
+/* Center align the Skills heading */
+.activity-flex > h1 {
+    text-align: center; /* Centers the text */
+    width: 100%; /* Takes full width to center align the text */
+    color: #fff; /* Optional: Color to match your design */
+    margin-bottom: 20px; /* Optional: Add some space below the heading */
+    font-size: 2em; /* Optional: Adjust the size of the heading */
+}
+
+/* Individual Items */
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Width adjustment for 4 items per row with gap */
+    transition: transform 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .activity-item {
+        width: calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .activity-item {
+        width: 100%; /* One item per row on very small screens */
+    }
+}
+
+/* Icon Container */
+.icon-container {
+    /* background-color: #ffefda; */
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+/* Icons (Placeholder Style) */
+.icon {
+    width: 34px; /* Adjust the width as needed */
+    height: 34px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensures the SVG icons fit within the container */
+    color: #f8a94b; /* This may not affect SVGs directly, but kept for consistency */
+}
+
+/* Item Text */
+.activity-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Hover Effect */
+.activity-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}

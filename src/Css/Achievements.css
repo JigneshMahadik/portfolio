@@ -1,0 +1,11 @@
+.styled-paragraph {
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 0 auto; /* Centers the element horizontally */
+    max-width: 90%; /* Ensures responsiveness */
+    box-sizing: border-box; /* Includes padding and border in element width */
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
