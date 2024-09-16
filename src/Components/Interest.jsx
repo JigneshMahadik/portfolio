@@ -8,7 +8,7 @@ export function Interest(){
     return(
         <div>
             <div className="activity-flex">
-                <h1 className="mt-9">Languages Known</h1>
+                <h1 className="mt-9">Personal Interest</h1>
                 <div className="activity-item">
                     <div className="icon-container">
                     <img src={crick} alt="Developing" className="icon" />
