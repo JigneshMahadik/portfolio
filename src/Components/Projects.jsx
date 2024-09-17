@@ -1,5 +1,5 @@
 import dwelio from "../Images/dwelio.jpg"
-import ecom from "../Images/ecom.jpg"
+import ecom from "../Images/cartflex.jpg"
 import cart from "../Images/cart.jpg"
 import tu from "../Images/tu.jpg"
 import tt from "../Images/TT.jpg"
