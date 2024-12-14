@@ -15,11 +15,13 @@ export function Banner(){
                 {/* <!-- Right Side: Profile Details --> */}
                 <div class="profile-details">
                 <h2>Hi, I'm Jigneshkumar Mahadik</h2>
-                <h3>&lt; Fullstack Developer &gt;</h3>
+                <h3>&lt; Software Developer &gt;</h3>
                 <p>
-                    Seeking an opportunity in the field of software engineering with strong knowledge of various technologies like, Javascript, React.js, Node.js, Express.js, HTML ,CSS, MongoDB, Tailwind CSS, Redux, Git.
-                    Ability to implement a full software development life cycle (SDLC) and analyze the performance of programs to
-                    correct deficiencies.
+                    "Myself Jigneshkumar Mahadik, a passionate software developer having expertise in ReactJS 
+                    and full-stack development using the MERN stack. I have hands-on expertise in building 
+                    scalable web applications, integrating APIs, and implementing secure authentication systems. 
+                    I thrive on delivering efficient solutions, and my dedication to continuous learning helps me 
+                    stay updated with the latest technologies."
                 </p>
                 {/* <!-- Buttons --> */}
                 <div class="profile-buttons">
