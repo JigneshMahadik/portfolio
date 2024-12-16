@@ -19,7 +19,7 @@ export function Experience(){
                         <img src={tk} id="company"/>
                         </div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">TeamKoder Infotech</h2>
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">TeamKoder Infotech : (Oct-2023 - Present)</h2>
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Software Developer</h2>
                             <p class="leading-relaxed">
                                 <span className="text-orange-400">GeoPay</span> : Developed this Digital wallet having features like adding money, wallet to wallet and bank transfers, wallet to mobile recharge, QR code payments, and exportable transaction history in PDF and CSV formats.
@@ -42,7 +42,7 @@ export function Experience(){
                         <img src={gd} id="company"/>
                         </div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">Giesecke & Devrient MS India Pvt Ltd</h2>
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">Giesecke & Devrient MS India Pvt Ltd : (July-2021 - Dec-2022)</h2>
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Software Development Intern</h2>
                             <p class="leading-relaxed">Implemented various functionalities to manage card personalization inventory, including tracking personalized cards,
                                 card details, and success/failure history for various clients.
