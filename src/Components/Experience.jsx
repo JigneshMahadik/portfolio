@@ -69,7 +69,8 @@ export function Experience(){
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Giesecke & Devrient MS India Pvt Ltd</h2>
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Software Development Intern</h2>
-                            <p class="leading-relaxed">Implemented various functionalities to manage card personalization inventory, including tracking personalized cards,
+                            <p class="leading-relaxed">
+                                <span className="text-orange-400">CSII</span> :Implemented various functionalities to manage card personalization inventory, including tracking personalized cards,
                                 card details, and success/failure history for various clients.
                                 Resolved over 1,000 bugs in the codebase, with 10% classified as Blocker, 50% Critical, 20% Major and 20% Minor,
                                 leading to significant improvements in performance and code quality, also documented application flow and modules
