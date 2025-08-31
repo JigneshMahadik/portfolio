@@ -1,5 +1,6 @@
 import gd from "../Images/gd.png"
 import tk from "../Icons/TK-logo.jpg"
+import lmg from "../Icons/letmegrab_logo.jpg"
 import "../Css/Experience.css"
 
 export function Experience(){
@@ -7,6 +8,30 @@ export function Experience(){
         <div id="work-experience-section">
             <section class="text-gray-400 bg-gray-900 body-font pt-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">Work Experience</h1>
+                {/* Letmegrab */}
+                <div class="container px-5 mx-auto flex flex-wrap pt-14">
+                    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                    </div>
+                    <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm"></div>
+                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        <div class="flex-shrink-0 w-24 h-24 bg-gray-800 text-indigo-400 rounded-full inline-flex items-center justify-center">
+                        <img src={lmg} id="company"/>
+                        </div>
+                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">Letmegrab :</h2>
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">Software Developer</h2>
+                            <p class="leading-relaxed">
+                                <span className="text-orange-400">Letmegrab</span> : Worked as a Software Developer where I developed and maintained scalable RESTful APIs for an eCommerce
+                                        web application using Node.js, Express, JavaScript, and MySQL. Implemented features like bulk product uploads via Excel
+                                        for sellers, product and subscription management, and automated email notifications. Optimized the code for high
+                                        performance and ensured reliable API integrations.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 {/* TeamKoder */}
                 <div class="container px-5 mx-auto flex flex-wrap pt-14">
                     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -19,7 +44,7 @@ export function Experience(){
                         <img src={tk} id="company"/>
                         </div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">TeamKoder Infotech : (Oct-2023 - Present)</h2>
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">TeamKoder Infotech :</h2>
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Software Developer</h2>
                             <p class="leading-relaxed">
                                 <span className="text-orange-400">GeoPay</span> : Developed this Digital wallet having features like adding money, wallet to wallet and bank transfers, wallet to mobile recharge, QR code payments, and exportable transaction history in PDF and CSV formats.
@@ -42,7 +67,7 @@ export function Experience(){
                         <img src={gd} id="company"/>
                         </div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-left">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">Giesecke & Devrient MS India Pvt Ltd : (July-2021 - Dec-2022)</h2>
+                            <h2 class="font-medium title-font text-white mb-1 text-xl">Giesecke & Devrient MS India Pvt Ltd</h2>
                             <h2 class="font-medium title-font text-white mb-1 text-xl">Software Development Intern</h2>
                             <p class="leading-relaxed">Implemented various functionalities to manage card personalization inventory, including tracking personalized cards,
                                 card details, and success/failure history for various clients.
